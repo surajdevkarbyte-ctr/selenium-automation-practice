@@ -1,7 +1,5 @@
 package seleniumDay11;
 
-import java.time.Duration;
-
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class AssignmentNavigateMethods {
