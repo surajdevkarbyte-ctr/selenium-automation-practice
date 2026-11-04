@@ -15,6 +15,7 @@ public class ExplicitWait {
 			
 			driver.get("https://demowebshop.tricentis.com/");
 			
+			//Explicit wait
 			WebDriverWait mywait = new WebDriverWait(driver,Duration.ofSeconds(5));
 			WebElement username =mywait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"small-searchterms\"]")));
 			
